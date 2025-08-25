@@ -63,13 +63,13 @@ Linux tabanlı sistemlerde (veya Windows'ta WSL ile) terminal, en güçlü yard�
 
 ## Node.js ve npm
 
-* **JavaScript'in Yükselişi:** JavaScript, eskiden sadece web tarayıcılarında çalışan bir dildi. 2009'da Ryan Dahl, JavaScript'i V8 motoruyla terminalde çalıştırmayı başardı ve böylece Node.js doğdu. Bu sayede JavaScript ile sunucu taraflı uygulamalar (backend) geliştirmek mümkün hale geldi.
+* **JavaScript'in Yükselişi:** JavaScript, eskiden sadece web tarayıcılarında çalışan bir dildi. 2009'da Ryan Dahl, JavaScript'i V8 motoruyla terminalde çalıştırmayı başardı ve böylece Node.js doğdu.Node.js, JavaScript’i tarayıcı dışında da çalıştırabilmeni sağlayan bir çalışma ortamıdır. Bu sayede JavaScript ile sunucu taraflı uygulamalar (backend) geliştirmek mümkün hale geldi.
 * **Asenkron (Non-Blocking) Yapı:** Node.js'in en önemli özelliklerinden biri asenkron çalışmasıdır. Bir işlem bitmeden diğerine geçebilir. Bu, özellikle aynı anda çok sayıda isteğe cevap vermesi gereken web sunucuları için onu çok verimli kılar.
 * **npm (Node Package Manager):** Node.js ile birlikte gelen paket yöneticisidir. Başkalarının yazdığı hazır kod kütüphanelerini (paketleri) projene kolayca dahil etmeni sağlar.
 
 ## Web Sunucuları ve Portlar
 
-* **Portlar:** Bir bilgisayarda toplam 65,535 adet port bulunur. İlk 1024 port genellikle standart servisler için rezerve edilmiştir.
+* **Portlar:** Bilgisayarında çalışan her internet hizmeti, iletişim kurmak için bir "kapı" yani port kullanır.Bir bilgisayarda toplam 65,535 adet port bulunur. İlk 1024 port genellikle standart servisler için rezerve edilmiştir.
 * **Apache:** Dünyanın en popüler web sunucularından biridir. Genellikle HTTP istekleri için varsayılan olarak 80 numaralı portu dinler. Tarayıcına `http://127.0.0.1` veya `http://localhost` yazdığında, 80 portu tetiklenir ve Apache sana web sayfasını sunar. PHP ile olan uyumu sayesinde "mükemmel ikili" olarak anılırlar.
 * **Nginx:** Apache'ye benzer, yüksek performanslı bir diğer web sunucusudur. Özellikle yüksek trafikli sitelerde tercih edilir.
 * **IIS (.NET):** Microsoft'un Windows sunucular için geliştirdiği web sunucusudur. Genellikle .NET uygulamalarını çalıştırmak için kullanılır.
