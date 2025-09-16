@@ -1,1 +1,1 @@
-# kamp_notlar-_2025
+# kamp_notlar_2025
