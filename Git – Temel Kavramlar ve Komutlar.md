@@ -4,7 +4,7 @@
 
 Git, bir versiyon kontrol sistemidir. Yazılım geliştirme sırasında yapılan değişiklikleri kaydeder, geçmişe dönmeyi sağlar ve ekip çalışmasını kolaylaştırır. Git dağıtık çalışır, yani herkesin kendi bilgisayarında tam depo kopyası vardır.
 
-#### Temel Kavramlar
+### Temel Kavramlar
 - **Repository (Depo):** Projenin tüm dosyalarının ve geçmişinin tutulduğu alan.
 - **Commit:** Yapılan değişikliklerin kaydedilmesi.
 - **Branch:** Farklı geliştirme hatları açmak için kullanılır. (ör. main, dev)
@@ -12,7 +12,7 @@ Git, bir versiyon kontrol sistemidir. Yazılım geliştirme sırasında yapılan
 - **Remote:** Uzak sunucuda bulunan depo (GitHub, GitLab gibi).
 - **Staging Area (Index):** Commit yapılmadan önce değişikliklerin hazırlandığı alan.
 
-#### Temel Komutlar
+### Temel Komutlar
 - `git init` → Yeni bir Git deposu başlatır.
 - `git clone <url>` → Var olan bir uzak depoyu bilgisayara kopyalar.
 - `git status` → Değişikliklerin durumunu gösterir.
@@ -31,7 +31,7 @@ Git, bir versiyon kontrol sistemidir. Yazılım geliştirme sırasında yapılan
 - `git pull origin <branch>` → Uzak depodan güncel değişiklikleri alır.
 - `git fetch` → Uzak depodan yeni commitleri indirir ama merge etmez.
 
-#### İleri Seviye Komutlar
+### İleri Seviye Komutlar
 - `git reset` → Değişiklikleri geri alır.
     - `git reset --soft` → Commit’i geri alır ama dosyaları korur.
     - `git reset --hard` → Commit’i ve değişiklikleri tamamen siler.
@@ -44,7 +44,7 @@ Git, bir versiyon kontrol sistemidir. Yazılım geliştirme sırasında yapılan
     - `git config --global user.name "Ramazan"` → Yaptığınız commit'lerde görünecek olan kullanıcı adınızı ayarlar.
     - `git config --global user.email "abc@gmail.com"` → Yaptığınız commit'lerde görünecek olan e-posta adresinizi ayarlar. 
 
-#### Git ile İlgili Araçlar
+### Git ile İlgili Araçlar
 - **GitHub / GitLab / Bitbucket:** Uzak depo barındırma servisleri.
 - **VS Code Git Eklentisi:** Kod editöründen Git işlemlerini kolayca yapmayı sağlar.
 - **Sublime Merge / GitKraken:** Görsel arayüzle Git yönetim araçları.
