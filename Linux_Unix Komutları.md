@@ -28,6 +28,7 @@ Linux, açık kaynaklı bir işletim sistemidir. Yazılım geliştirmede sıkça
 - `rmdir <isim>` → Boş klasörü siler.
 - `rm <dosya>` → Dosya siler.
 - `rm -rf <dizin>` → Dizini içindekilerle birlikte siler.
+- `cat <dosya adı>` → Bir dosyanın içeriğini terminal ekranında okumanızı sağlar.
 
 #### Dosya İşlemleri
 - `sudo` → Komutu yönetici (root) yetkisiyle çalıştırır.
